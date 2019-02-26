@@ -9,7 +9,7 @@
 		<!-- 配置Action================ -->
 		<action name="hello" class="cn.csdas.yelf.day01.HelloAction" method="execute">
 			<!-- 配置页面的跳转=========== -->
-			<result name="success">/index.jsp</result>
+			<result name="success">/success.jsp</result>
 		</action>
 	</package>
 	
