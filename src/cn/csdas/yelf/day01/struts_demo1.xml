@@ -12,5 +12,4 @@
 			<result name="success">/success.jsp</result>
 		</action>
 	</package>
-	
 </struts>
