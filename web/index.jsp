@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>项目导航</title>
   </head>
   <body>
-  $END$
+  <h3><a href="/Struts2/day01/TestAction.jsp" target="_blank" >1、day01/TestAction</a></h3>
   </body>
 </html>
