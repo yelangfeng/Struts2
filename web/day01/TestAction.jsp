@@ -13,6 +13,9 @@
 <body>
 <h1>Struts2的入门</h1>
 <h3><a href="${pageContext.request.contextPath}/hello.action">Struts2的入门</a> </h3>
+<h3><a href="${pageContext.request.contextPath}/POJOAction.action">Action的编写方式1:POJOAction</a> </h3>
+<h3><a href="${pageContext.request.contextPath}/ImplAction.action">Action的编写方式2:ImplAction</a> </h3>
+<h3><a href="${pageContext.request.contextPath}/SupportAction.action">Action的编写方式3:SupportAction</a> </h3>
 
 </body>
 </html>

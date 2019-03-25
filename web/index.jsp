@@ -11,6 +11,6 @@
     <title>项目导航</title>
   </head>
   <body>
-  <h3><a href="/Struts2/day01/TestAction.jsp" target="_blank" >1、day01/TestAction</a></h3>
+  <h2><a href="/Struts2/day01/TestAction.jsp" target="_blank" >1、day01</a></h2>
   </body>
 </html>

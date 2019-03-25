@@ -8,4 +8,5 @@
 	<constant name="struts.action.extension" value="action,xyz,,"/>
 	<!--引入其它struts2配置模块-->
 	<include file="cn/csdas/yelf/day01/struts_demo1.xml"/>
+	<include file="cn/csdas/yelf/day01/struts_demo2.xml"/>
 </struts>
