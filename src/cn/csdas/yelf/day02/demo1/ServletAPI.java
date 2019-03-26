@@ -22,6 +22,10 @@ public class ServletAPI extends ActionSupport {
             String[] values = (String[]) map.get(key);
             System.out.println(key+":"+ Arrays.toString(values));
         }
+        //向域对象存入数据
+        context.put("req","request数据"); //相当于request.setAttribute()
+        context.getSession().put("sess","session数据");//相当于session.setAttribute()
+        context.getApplication().put("app","application数据");//相当于application.setAttribute()
         return SUCCESS;
     }
 }

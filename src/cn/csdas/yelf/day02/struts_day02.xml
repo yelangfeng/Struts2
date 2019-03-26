@@ -9,7 +9,7 @@
 		<!-- 配置Action================ -->
 		<action name="ServletAPI" class="cn.csdas.yelf.day02.demo1.ServletAPI" method="execute">
 			<!-- 配置页面的跳转=========== -->
-			<result name="success">/day02/success.jsp</result>
+			<result name="success">/day02/outputAttr.jsp</result>
 		</action>
 	</package>
 </struts>
