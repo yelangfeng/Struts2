@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="jdk-8u202">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/Program Files/Java/jdk-8u202/demo/nio/zipfs" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/annotations/DependencyChecker/PluginChecker/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/annotations/DependencyChecker/Plugins/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/annotations/Validator/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/forkjoin/mergesort" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/jmx/jmx-scandir/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/jmx/jmx-scandir/test" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/lambda/BulkDataOperations/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/lambda/DefaultMethods" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/nio/chatserver" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/nio/file" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/nio/multicast" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/nio/server" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/scripting/scriptpad/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202/sample/try-with-resources/src" />
+      <root url="file://C:/Program Files/Java/jdk-8u202" />
+    </SOURCES>
+    <jarDirectory url="file://C:/Program Files/Java/jdk-8u202" recursive="false" type="SOURCES" />
+  </library>
+</component>
