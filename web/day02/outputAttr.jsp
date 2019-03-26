@@ -12,8 +12,8 @@
 </head>
 <body>
 <h3>显示数据</h3>
-${sess}
-${req}
-${app}
+${sessionScope.sess}
+${requestScope.req}
+${applicationScope.app}
 </body>
 </html>

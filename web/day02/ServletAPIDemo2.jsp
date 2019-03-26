@@ -13,7 +13,7 @@
 <body>
 <h1>Struts2访问Servlet的API</h1>
 <h3>方式一：完全解耦的方式</h3>
-<form action="${pageContext.request.contextPath}/ServletAPI_type1.action" method="post">
+<form action="${pageContext.request.contextPath}/ServletAPI_type2.action" method="post">
     姓名：<input type="text" name="name"/><br/>
     密码：<input type="password" name="password"/><br/>
     <input type="submit" value="提交"/>

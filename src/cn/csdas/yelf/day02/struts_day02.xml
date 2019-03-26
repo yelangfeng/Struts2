@@ -7,7 +7,7 @@
 	<!-- 配置Struts2的包 ================ -->
 	<package name="demo21" extends="struts-default" namespace="/">
 		<!-- 配置Action================ -->
-		<action name="ServletAPI" class="cn.csdas.yelf.day02.demo1.ServletAPI" method="execute">
+		<action name="ServletAPI_*" class="cn.csdas.yelf.day02.demo1.ServletAPI" method="{1}">
 			<!-- 配置页面的跳转=========== -->
 			<result name="success">/day02/outputAttr.jsp</result>
 		</action>

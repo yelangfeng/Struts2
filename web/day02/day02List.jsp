@@ -13,5 +13,6 @@
 <body>
 <h2>Struts2访问Servlet的API</h2>
 <h3><a href="ServletAPIDemo1.jsp" target="_blank">方式一：完全解耦的方式</a></h3>
+<h3><a href="ServletAPIDemo2.jsp" target="_blank">方式二：使用原生的访问方式</a></h3>
 </body>
 </html>
