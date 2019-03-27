@@ -29,6 +29,10 @@
 			<!-- 配置页面的跳转=========== -->
 		</action>
 
+		<action name="userActionType2" class="cn.csdas.yelf.day02.UserActionType2" method="execute">
+			<!-- 配置页面的跳转=========== -->
+		</action>
+
 		<action name="userActionType3" class="cn.csdas.yelf.day02.UserActionType3" method="execute">
 			<!-- 配置页面的跳转=========== -->
 		</action>
