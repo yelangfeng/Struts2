@@ -1,4 +1,4 @@
-package cn.csdas.yelf.day02.demo1;
+package cn.csdas.yelf.day02;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
@@ -35,7 +35,7 @@ public class ServletAPI extends ActionSupport {
     }
 
     /**
-     * 访问Servlet的API的方式二：完全解耦的方式
+     * 访问Servlet的API的方式二：使用原生的访问方式
      * @return
      */
     public String type2(){

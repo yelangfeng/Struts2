@@ -6,10 +6,32 @@
 	<!-- Struts2为了管理Action的配置，通过包进行管理。 -->
 	<!-- 配置Struts2的包 ================ -->
 	<package name="demo21" extends="struts-default" namespace="/">
+        <!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
+        <global-results>
+            <result name="success">/day02/success.jsp</result>
+        </global-results>
 		<!-- 配置Action================ -->
-		<action name="ServletAPI_*" class="cn.csdas.yelf.day02.demo1.ServletAPI" method="{1}">
+		<action name="ServletAPI_*" class="cn.csdas.yelf.day02.ServletAPI" method="{1}">
 			<!-- 配置页面的跳转=========== -->
-			<result name="success">/day02/outputAttr.jsp</result>
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day02/outputAttr.jsp</result>
+            <result name="login">/index.jsp</result>
 		</action>
+	</package>
+
+	<package name="demo22" extends="struts-default" namespace="/">
+		<!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
+		<global-results>
+			<result name="success">/day02/success.jsp</result>
+		</global-results>
+		<!-- 配置Action================ -->
+		<action name="userActionType1" class="cn.csdas.yelf.day02.UserActionType1" method="execute">
+			<!-- 配置页面的跳转=========== -->
+		</action>
+
+		<action name="userActionType3" class="cn.csdas.yelf.day02.UserActionType3" method="execute">
+			<!-- 配置页面的跳转=========== -->
+		</action>
+
 	</package>
 </struts>
