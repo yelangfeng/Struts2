@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: yelf
@@ -12,6 +13,7 @@
 </head>
 <body>
 <h3>方式三：模型驱动-模型驱动方式</h3>
+<s:fielderror/>
 <form action="${pageContext.request.contextPath}/userActionType3" method="post">
     用户名：<input type="text" name="username"/><br/>
     密码：<input type="password" name="password"/><br/>

@@ -27,14 +27,17 @@
 		<!-- 配置Action================ -->
 		<action name="userActionType1" class="cn.csdas.yelf.day02.UserActionType1" method="execute">
 			<!-- 配置页面的跳转=========== -->
+			<result name="input">/day02/userInfotype1.jsp</result>
 		</action>
 
 		<action name="userActionType2" class="cn.csdas.yelf.day02.UserActionType2" method="execute">
 			<!-- 配置页面的跳转=========== -->
+			<result name="input">/day02/userInfotype2.jsp</result>
 		</action>
 
 		<action name="userActionType3" class="cn.csdas.yelf.day02.UserActionType3" method="execute">
 			<!-- 配置页面的跳转=========== -->
+			<result name="input">/day02/userInfotype3.jsp</result>
 		</action>
 
 	</package>

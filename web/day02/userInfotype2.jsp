@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: yelf
@@ -12,6 +13,7 @@
 </head>
 <body>
 <h3>方式二：属性驱动-在页面中提供表达式方式</h3>
+<s:fielderror/>
 <form action="${pageContext.request.contextPath}/userActionType2" method="post">
     用户名：<input type="text" name="user.username"/><br/>
     密码：<input type="password" name="user.password"/><br/>
