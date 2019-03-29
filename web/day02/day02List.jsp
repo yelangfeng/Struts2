@@ -19,6 +19,8 @@
 <h3><a href="userInfotype1.jsp" target="_blank">方式一：提供属性set方法的方式</a></h3>
 <h3><a href="userInfotype2.jsp" target="_blank">方式二：在页面中提供表达式的方式</a></h3>
 <h3><a href="userInfotype3.jsp" target="_blank">方式三：模型驱动方式（最常用）</a></h3>
-
+<br/>
+<h2>Strut2复杂数据类型封装</h2>
+<h3><a href="productinfo.jsp" target="_blank">1、封装到List集合中</a></h3>
 </body>
 </html>
