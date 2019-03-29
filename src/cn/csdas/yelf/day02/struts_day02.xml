@@ -44,15 +44,19 @@
 	</package>
 
 	<package name="demo23" extends="struts-default" namespace="/">
-	<!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
-	<global-results>
+		<!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
+		<global-results>
 		<result name="success">/day02/success.jsp</result>
-	</global-results>
-	<!-- 配置Action================ -->
-	<action name="productAction1" class="cn.csdas.yelf.day02.ProductAction1" method="execute">
+		</global-results>
+		<!-- 配置Action================ -->
+		<action name="productAction1" class="cn.csdas.yelf.day02.ProductAction1" method="execute">
 		<!-- 配置页面的跳转=========== -->
 		<result name="input">/day02/productinfo.jsp</result>
-	</action>
+		</action>
 
+		<action name="productAction2" class="cn.csdas.yelf.day02.ProductAction2" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<result name="input">/day02/productinfo.jsp</result>
+		</action>
 	</package>
 </struts>
