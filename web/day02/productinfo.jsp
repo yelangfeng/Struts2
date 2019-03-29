@@ -12,7 +12,7 @@
     <title>商品信息录入</title>
 </head>
 <body>
-<h1>Struts2复杂类型的数据封装</h1>
+<h1>Struts2复杂数据类型的数据封装</h1>
 <s:fielderror/>
 <h3>封装到List集合中：批量插入商品</h3>
 <form action="${pageContext.request.contextPath}/productAction1" method="post">
