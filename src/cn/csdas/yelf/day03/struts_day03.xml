@@ -16,8 +16,7 @@
 		<action name="valueStackDemo1" class="cn.csdas.yelf.day03.ValueStackDemo1" method="execute">
 			<!-- 配置页面的跳转=========== -->
 			<!--redirect：重定向    dispatcher：转发-->
-			<result name="success" type="dispatcher">/day02/outputAttr.jsp</result>
-            <result name="login">/index.jsp</result>
+			<result name="success" type="dispatcher">/day03/showvaluestack.jsp</result>
 		</action>
 	</package>
 
