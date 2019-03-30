@@ -13,5 +13,6 @@
   <body>
   <h2><a href="/Struts2/day01/TestAction.jsp">1、day01</a></h2>
   <h2><a href="/Struts2/day02/day02List.jsp">2、day02</a></h2>
+  <h2><a href="/Struts2/day03/day03List.jsp">2、day03</a></h2>
   </body>
 </html>
