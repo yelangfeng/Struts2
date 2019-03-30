@@ -22,6 +22,7 @@ public class ValueStackDemo4 extends ActionSupport {
         User user = new User("李四","das456");
         //现在user在栈顶
         valueStack.push(user);
+        valueStack.set("name","王五");//创建一个Map对象，将Map压入到值栈中
         return SUCCESS;
     }
 }

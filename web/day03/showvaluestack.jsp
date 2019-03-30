@@ -21,5 +21,6 @@
 <!--方式二的获取值栈值：调用ValueStack本身的方法-->
 <s:property value="username"/>
 <s:property value="password"/>
+<s:property value="name"/>
 </body>
 </html>
