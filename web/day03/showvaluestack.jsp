@@ -14,5 +14,12 @@
 <body>
 <h1>查看值栈内部结构</h1>
 <s:debug></s:debug>
+<!--方式一的获取值栈值：利用Action在值栈中的特性-->
+<s:property value="user.username"/>
+<s:property value="user.password"/>
+<hr/>
+<!--方式二的获取值栈值：调用ValueStack本身的方法-->
+<s:property value="username"/>
+<s:property value="password"/>
 </body>
 </html>

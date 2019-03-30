@@ -18,6 +18,24 @@
 			<!--redirect：重定向    dispatcher：转发-->
 			<result name="success" type="dispatcher">/day03/showvaluestack.jsp</result>
 		</action>
+
+		<action name="valueStackDemo2" class="cn.csdas.yelf.day03.ValueStackDemo2" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day03/success.jsp</result>
+		</action>
+
+		<action name="valueStackDemo3" class="cn.csdas.yelf.day03.ValueStackDemo3" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day03/showvaluestack.jsp</result>
+		</action>
+
+		<action name="valueStackDemo4" class="cn.csdas.yelf.day03.ValueStackDemo4" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day03/showvaluestack.jsp</result>
+		</action>
 	</package>
 
 
