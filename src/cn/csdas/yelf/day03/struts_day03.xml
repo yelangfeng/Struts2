@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- Struts2为了管理Action的配置，通过包进行管理。 -->
+	<!-- 配置Struts2的包 ================ -->
+	<package name="demo31" extends="struts-default" namespace="/">
+        <!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
+        <global-results>
+			<!--input的result某些拦截器会使用，比如表单封装时数据格式异常-->
+			<result name="input">/index.jsp</result>
+            <result name="success">/day03/success.jsp</result>
+        </global-results>
+		<!-- 配置Action================ -->
+		<action name="valueStackDemo1" class="cn.csdas.yelf.day03.ValueStackDemo1" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day02/outputAttr.jsp</result>
+            <result name="login">/index.jsp</result>
+		</action>
+	</package>
+
+
+</struts>
