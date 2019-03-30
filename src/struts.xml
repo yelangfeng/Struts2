@@ -6,6 +6,8 @@
 	<!--struts2常量设置-->
 	<constant name="struts.custom.i18n.resources" value="UTF-8"/>
 	<constant name="struts.action.extension" value="action,xyz,,"/>
+	<!--开启OGNL静态方法访问-->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"/>
 	<!--引入其它struts2配置模块-->
 	<include file="cn/csdas/yelf/day01/struts_demo1.xml"/>
 	<include file="cn/csdas/yelf/day01/struts_demo2.xml"/>

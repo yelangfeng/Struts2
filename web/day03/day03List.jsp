@@ -11,7 +11,8 @@
     <title>day03导航</title>
 </head>
 <body>
-<h2></h2>
+<h2>OGNL入门</h2>
+<h3><a href="ognldemo.jsp">OGNL在Struts2环境中的入门</a></h3>
 
 </body>
 </html>
