@@ -6,7 +6,24 @@
 	<!-- Struts2为了管理Action的配置，通过包进行管理。 -->
 	<!-- 配置Struts2的包 ================ -->
 	<package name="demo41" extends="struts-default" namespace="/">
-        <!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
+		<!--定义拦截器=========-->
+		<!--<interceptors>
+			<interceptor name="interceptor1" class="cn.csdas.yelf.day04.interceptors.Interceptor1"/>
+			<interceptor name="interceptor2" class="cn.csdas.yelf.day04.interceptors.Interceptor2"/>
+		</interceptors>-->
+		<interceptors>
+			<interceptor name="interceptor1" class="cn.csdas.yelf.day04.interceptors.Interceptor1"/>
+			<interceptor name="interceptor2" class="cn.csdas.yelf.day04.interceptors.Interceptor2"/>
+			<!--自定义拦截器栈-->
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="defaultStack"/>
+				<interceptor-ref name="interceptor1"/>
+				<interceptor-ref name="interceptor2"/>
+			</interceptor-stack>
+		</interceptors>
+
+
+		<!--全局结果页面,如果局部结果页面没有配置，则使用全局的-->
         <global-results>
 			<!--input的result某些拦截器会使用，比如表单封装时数据格式异常-->
 			<result name="input">/index.jsp</result>
@@ -17,10 +34,13 @@
 			<!-- 配置页面的跳转=========== -->
 			<!--redirect：重定向    dispatcher：转发-->
 			<result name="success" type="dispatcher">/day04/interceptordemo1.jsp</result>
+			<!--引入拦截器(一旦引入拦截器，默认拦截栈的拦截器就不执行了，需手动添加默认拦截栈)=======-->
+			<!--
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="interceptor1"/>
+			<interceptor-ref name="interceptor2"/>-->
+			<interceptor-ref name="myStack"/>
 		</action>
 
-
 	</package>
-
-
 </struts>
