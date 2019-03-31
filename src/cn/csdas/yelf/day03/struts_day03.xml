@@ -36,6 +36,12 @@
 			<!--redirect：重定向    dispatcher：转发-->
 			<result name="success" type="dispatcher">/day03/showvaluestack.jsp</result>
 		</action>
+
+		<action name="valueStackDemo5" class="cn.csdas.yelf.day03.ValueStackDemo5" method="execute">
+			<!-- 配置页面的跳转=========== -->
+			<!--redirect：重定向    dispatcher：转发-->
+			<result name="success" type="dispatcher">/day03/getvaluestack.jsp</result>
+		</action>
 	</package>
 
 
