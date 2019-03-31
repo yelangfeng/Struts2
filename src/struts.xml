@@ -15,4 +15,5 @@
 	<include file="cn/csdas/yelf/day01/struts_demo4.xml"/>
 	<include file="cn/csdas/yelf/day02/struts_day02.xml"/>
 	<include file="cn/csdas/yelf/day03/struts_day03.xml"/>
+	<include file="cn/csdas/yelf/day04/struts_day04.xml"/>
 </struts>
