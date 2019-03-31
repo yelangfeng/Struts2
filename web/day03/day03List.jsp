@@ -12,7 +12,7 @@
 </head>
 <body>
 <h2>OGNL入门</h2>
-<h3><a href="ognldemo.jsp">OGNL在Struts2环境中的入门</a></h3>
+<h3><a href="ognldemo.jsp">OGNL在Struts2环境的使用</a></h3>
 <br/>
 <h2>值栈ValueStack</h2>
 <h3><a href="${pageContext.request.contextPath}/valueStackDemo1">查看值栈内部结构</a></h3>

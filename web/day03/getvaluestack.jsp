@@ -39,5 +39,8 @@
 <s:property value="#attr.name"/>
 <h5>parameters：</h5>
 <s:property value="#parameters.id"/>
+<h2>EL表达式获取值栈数据（Struts2底层增强）</h2>
+root数据：${username}<br/>
+context数据：${name}
 </body>
 </html>
