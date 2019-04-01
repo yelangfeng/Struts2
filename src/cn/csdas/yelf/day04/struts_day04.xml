@@ -42,5 +42,10 @@
 			<interceptor-ref name="myStack"/>
 		</action>
 
+		<action name="uiAction" class="cn.csdas.yelf.day04.UIAction" method="execute">
+			<result name="success">/day04/success.jsp</result>
+			<result name="input">/day04/UItag.jsp</result>
+		</action>
+
 	</package>
 </struts>

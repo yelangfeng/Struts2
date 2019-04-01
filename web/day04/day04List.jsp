@@ -13,6 +13,8 @@
 <body>
 <h2>拦截器的使用</h2>
 <h3><a href="${pageContext.request.contextPath}/InterceptorAction1">1、拦截器功能测试</a></h3>
-
+<h2>Struts2标签库的使用</h2>
+<h3><a href="${pageContext.request.contextPath}/day04/commontag.jsp">1、通用标签库</a></h3>
+<h3><a href="${pageContext.request.contextPath}/day04/UItag.jsp">2、UI标签库</a></h3>
 </body>
 </html>
