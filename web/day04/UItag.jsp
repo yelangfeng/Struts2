@@ -38,10 +38,10 @@
 <h3>UI标签库的表单</h3>
 <s:form action="uiAction" namespace="/" method="POST">
     <s:textfield name="username" label="用户名"/>
-    <s:password name="password" label="密 码"/>
+    <s:password name="password" label="密 码" showPassword="true"/>
     <s:textfield name="age" label="年龄"/>
     <s:radio list="#{'男':'男','女':'女'}" label="性 别" name="sex"/>
-    <s:select list="{'-请选择-','北京','上海','广州','深圳'}" name="city" label="籍 贯"/>
+    <s:select list="{'北京','上海','广州','深圳'}" name="city" label="籍 贯" headerKey="" headerValue="-请选择-"/>
     <s:checkboxlist list="#{'lanqiu':'篮球','zuqiu':'足球','bpqiu':'乒乓球','paiqiu':'排球','yumaoqiu':'羽毛球'}" name="hobby" label="爱 好"/>
     <s:textarea label="介绍" name="info" cols="30" rows="5" value="abc"/>
     <s:submit value="提交"/>

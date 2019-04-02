@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: yelf
@@ -12,5 +13,6 @@
 </head>
 <body>
 <h1>Action调用成功！</h1>
+<s:debug/>
 </body>
 </html>
